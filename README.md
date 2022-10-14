@@ -40,13 +40,19 @@ where,
 * `evo_iter` - Number of iterations for evolutionary search (default: `10`)
 
 ## Contact
-If you have questions, contact [Ganesh](ganeshjwhr@gmail.com), [Subho](Subhabrata.Mukherjee@microsoft.com) and/or create GitHub issue.
+If you have questions, contact Ganesh (`ganeshjwhr@gmail.com`), Subho (`Subhabrata.Mukherjee@microsoft.com`) and/or create GitHub issue.
 
 ## License
-This repository is MIT-licensed.
+See LICENSE.txt for license information.
 
 ## Acknowledgements
 * [Hardware Aware Transformer](https://github.com/mit-han-lab/hardware-aware-transformers) from `mit-han-lab`
 * [fairseq](https://github.com/facebookresearch/fairseq) from `facebookresearch`
 
+## Trademarks
 
+This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft 
+trademarks or logos is subject to and must follow 
+[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
+Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
+Any use of third-party trademarks or logos are subject to those third-party's policies.
