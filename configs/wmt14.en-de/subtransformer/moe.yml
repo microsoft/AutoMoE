@@ -1,0 +1,17 @@
+encoder-embed-dim-subtransformer: 512
+decoder-embed-dim-subtransformer: 512
+
+encoder-ffn-embed-dim-all-subtransformer: [3072, 3072, 3072, 3072, 3072, 3072]
+decoder-ffn-embed-dim-all-subtransformer: [3072, 3072, 3072, 3072, 3072, 3072]
+
+encoder-layer-num-subtransformer: 6
+decoder-layer-num-subtransformer: 6
+
+encoder-self-attention-heads-all-subtransformer: [8, 8, 8, 8, 8, 8]
+decoder-self-attention-heads-all-subtransformer: [8, 8, 8, 8, 8, 8]
+decoder-ende-attention-heads-all-subtransformer: [8, 8, 8, 8, 8, 8]
+
+decoder-arbitrary-ende-attn-all-subtransformer: [-1, -1, -1, -1, -1, -1]
+
+encoder-num-experts-to-route: [1, 1, 1, 1, 1, 1]
+decoder-num-experts-to-route: [1, 1, 1, 1, 1, 1]
