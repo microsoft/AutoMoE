@@ -4,6 +4,11 @@
 # Paper: https://arxiv.org/abs/2005.14187
 # Project page: https://hanruiwang.me/project_pages/hat/
 
+# AutoMoE: Neural Architecture Search for Efficient Sparsely Activated Transformers
+# Ganesh Jawahar, Subhabrata Mukherjee, Xiaodong Liu, Young Jin Kim, Muhammad Abdul-Mageed, Laks V. S. Lakshmanan, Ahmed Hassan Awadallah, Sebastien Bubeck, Jianfeng Gao
+# Paper: https://arxiv.org/abs
+
+
 import collections
 import math
 import random

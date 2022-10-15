@@ -2,6 +2,18 @@
 
 This repository contains code, data and pretrained models used in AutoMoE work. This repository builds on [Hardware Aware Transformer (HAT)'s repository](https://github.com/mit-han-lab/hardware-aware-transformers).
 
+AutoMoE Framework
+![AutoMoE Framework](images/framework.png)
+
+AutoMoE Key Result
+The following table shows the performance of AutoMoE vs. baselines on standard machine translation benchmarks.
+
+| Dataset         | Network | \# Active Params (M) | Sparsity (%) | FLOPs (G) | BLEU  | GPU Hours  |
+|----------------|--------|---------|------|------|------|------|
+| WMT’14 En-De | 
+| Transformer | Dense | 176 | 0 | 10.6 | 28.4 |  184 |
+
+
 ## Quick Setup
 
 ### (1) Install
@@ -41,6 +53,19 @@ where,
 
 ## Contact
 If you have questions, contact Ganesh (`ganeshjwhr@gmail.com`), Subho (`Subhabrata.Mukherjee@microsoft.com`) and/or create GitHub issue.
+
+## Citation
+If you use this code, please cite:
+```
+@misc{jawahar2022automoe,
+      title={AutoMoE: Neural Architecture Search for Efficient Sparsely Activated Transformers}, 
+      author={Ganesh Jawahar and Subhabrata Mukherjee and Xiaodong Liu and Young Jin Kim and Muhammad Abdul-Mageed and Laks V. S. Lakshmanan and Ahmed Hassan Awadallah and Sebastien Bubeck and Jianfeng Gao},
+      year={2022},
+      eprint={},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
 
 ## License
 See LICENSE.txt for license information.

@@ -4,6 +4,7 @@
 # Paper: https://arxiv.org/abs/2005.14187
 # Project page: https://hanruiwang.me/project_pages/hat/
 
+
 import argparse
 import os
 from tqdm import tqdm
