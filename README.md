@@ -2,16 +2,34 @@
 
 This repository contains code, data and pretrained models used in AutoMoE work. This repository builds on [Hardware Aware Transformer (HAT)'s repository](https://github.com/mit-han-lab/hardware-aware-transformers).
 
-AutoMoE Framework
+## AutoMoE Framework
 ![AutoMoE Framework](images/framework.png)
 
-AutoMoE Key Result
-The following table shows the performance of AutoMoE vs. baselines on standard machine translation benchmarks.
+## AutoMoE Key Result
 
-| Dataset         | Network | \# Active Params (M) | Sparsity (%) | FLOPs (G) | BLEU  | GPU Hours  |
+The following table shows the performance of AutoMoE vs. baselines on standard machine translation benchmarks: WMT'14 En-De, WMT'14 En-Fr and WMT'19 En-De.
+
+| WMT’14 En-De         | Network | \# Active Params (M) | Sparsity (%) | FLOPs (G) | BLEU  | GPU Hours  |
 |----------------|--------|---------|------|------|------|------|
-| WMT’14 En-De | 
 | Transformer | Dense | 176 | 0 | 10.6 | 28.4 |  184 |
+| Evolved Transformer | NAS over Dense | 47 | 0 | 2.9 | 28.2 | 2,192,000 |
+| HAT | NAS over Dense | 56 | 0 | 3.5 | 28.2 | 264 |
+| AutoMoE (6 Experts) | NAS over Sparse | 45 | 62 | 2.9 | 28.2 | 224 | 
+
+| WMT’14 En-Fr         | Network | \# Active Params (M) | Sparsity (%) | FLOPs (G) | BLEU  | GPU Hours  |
+|----------------|--------|---------|------|------|------|------|
+| Transformer |  Dense | 176 | 0 | 10.6 | 41.2 | 240 |
+| Evolved Transformer | NAS over Dense | 175 | 0 | 10.8 | 41.3 | 2,192,000  |
+| HAT | NAS over Dense | 57 | 0 | 3.6 | 41.5 | 248 |
+| AutoMoE (6 Experts) | NAS over Sparse | 46 | 72 | 2.9 | 41.6 | 236  |
+| AutoMoE (16 Experts) | NAS over Sparse | 135 | 65 | 3.0 | 41.9 & 236 | 
+
+| WMT’19 En-De        | Network | \# Active Params (M) | Sparsity (%) | FLOPs (G) | BLEU  | GPU Hours  |
+|----------------|--------|---------|------|------|------|------|
+| Transformer |  Dense | 176 | 0 | 10.6 | 46.1 | 184 |
+| HAT | NAS over Dense | 63 | 0 | 4.1 | 45.8 | 264 |
+| AutoMoE (2 Experts) | NAS over Sparse | 45 | 41 | 2.8 | 45.5 | 248  |
+| AutoMoE (16 Experts) | NAS over Sparse | 69 | 81 | 3.2 | 45.9 & 248 | 
 
 
 ## Quick Setup
