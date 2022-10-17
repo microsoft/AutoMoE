@@ -6,7 +6,7 @@
 
 # AutoMoE: Neural Architecture Search for Efficient Sparsely Activated Transformers
 # Ganesh Jawahar, Subhabrata Mukherjee, Xiaodong Liu, Young Jin Kim, Muhammad Abdul-Mageed, Laks V. S. Lakshmanan, Ahmed Hassan Awadallah, Sebastien Bubeck, Jianfeng Gao
-# Paper: https://arxiv.org/abs
+# Paper: https://arxiv.org/abs/2210.07535
 
 import torch
 import random
