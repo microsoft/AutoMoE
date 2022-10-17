@@ -1,6 +1,6 @@
 # AutoMoE: Neural Architecture Search for Efficient Sparsely Activated Transformers
 
-This repository contains code, data and pretrained models used in AutoMoE work. This repository builds on [Hardware Aware Transformer (HAT)'s repository](https://github.com/mit-han-lab/hardware-aware-transformers).
+This repository contains code, data and pretrained models used in [AutoMoE work](https://arxiv.org/abs/2210.07535). This repository builds on [Hardware Aware Transformer (HAT)'s repository](https://github.com/mit-han-lab/hardware-aware-transformers).
 
 ## AutoMoE Framework
 ![AutoMoE Framework](images/framework.png)
@@ -79,7 +79,7 @@ If you use this code, please cite:
       title={AutoMoE: Neural Architecture Search for Efficient Sparsely Activated Transformers}, 
       author={Ganesh Jawahar and Subhabrata Mukherjee and Xiaodong Liu and Young Jin Kim and Muhammad Abdul-Mageed and Laks V. S. Lakshmanan and Ahmed Hassan Awadallah and Sebastien Bubeck and Jianfeng Gao},
       year={2022},
-      eprint={},
+      eprint={2210.07535},
       archivePrefix={arXiv},
       primaryClass={cs.CL}
 }
